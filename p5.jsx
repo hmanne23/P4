@@ -15,8 +15,12 @@ ReactDOM.render(
 ReactDOM.render(
     <HashRouter>
         <div className="container">
-            <div className="menu"><Link to="/example">Example</Link></div>
-            <div className="menu"><Link to="/states">States</Link></div>
+            <div className='stylish-button'><Link to="/example">Example</Link></div>
+
+            <br/>
+            <br/>
+            
+            <div className="stylish-button"><Link to="/states">States</Link></div>
         </div>
         <Route path="/states" component={States} />
         <Route path="/example" component={Example} />
