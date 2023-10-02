@@ -5,6 +5,7 @@ import { HashRouter, Route, Link } from "react-router-dom";
 import Header from './components/header/Header';
 import Example from './components/example/Example';
 import States from './components/states/States';
+import './p5.css';
 
 ReactDOM.render(
     <Header/>,
